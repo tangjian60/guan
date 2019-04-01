@@ -35,7 +35,7 @@
  * @since	Version 1.0.0
  * @filesource
  */
-
+echo '3';exit;
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
