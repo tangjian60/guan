@@ -112,7 +112,7 @@
                     <td><?php echo $v->gmt_taking_task; ?></td>
                     <td><?php echo $v->task_submit_time; ?></td>
                     <td><?php
-                        if($v->express_success == ''){
+                        if(!isset($v->express_success)){
                             echo '';
                         }elseif($v->express_success == 1){
                            echo '成功';
